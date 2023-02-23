@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Village-Kolhua</title>
+    <link rel="stylesheet" href="index1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--header//-->
+    <section class="sub-header">
+      <nav>
+        <a href=""><img src="/h1.png" alt="Village-Kolhua logo" /></a>
+        <div class="nav-link" id="navlink">
+          <i class="fa fa-times" onclick="Hidemenu()"></i>
+          <ul>
+            <li><a href="intex1.html">Home</a></li>
+            <li><a href="about.html">About-Kolhua</a></li>
+            <li><a href="/gallary.html">PhotoGallary</a></li>
+            <li><a href="map.html">Village-Map</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="Showmenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <section class="about-us">
+      <div class="row">
+        <div class="about-cole">
+          <h1>We are going to developed</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sit
+            delectus laboriosam hic animi, perferendis illo explicabo et impedit
+            similique! ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
+            tenetur. Eveniet amet est, optio illum tempora id quibusdam!
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-cole">
+          <img src="/Gallary/banner.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!--Footer//-->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, facilis.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linked"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i>by Jaidev singh Saroj</p>
+    </section>
+
+    <script>
+      var navlink = document.getElementById("navlink");
+      function Showmenu() {
+        navlink.style.right = "0px";
+      }
+      function Hidemenu() {
+        navlink.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
